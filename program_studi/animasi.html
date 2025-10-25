@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!-- Bootsrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Bootsrap Icon-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar Sosia Media-->
+    <div class="bg-primary text-white py-1">
+      <div
+        class="container d-flex justify-content-end align-items-center gap-3"
+      >
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <i class="bi bi-search"></i>
+      </div>
+    </div>
+
+    <!-- Navbar Logo TI-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="../images/logo-ti-pnp-05-1.png"
+            alt="Bootstrap"
+            width="300"
+            height="40"
+          />
+        </a>
+        <!-- Toggle dan Menu -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Profil
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../profil/sejarah.html"
+                    >Sejarah</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../profil/visi_misi.html"
+                    >Visi Misi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/tujuan_strategis.html"
+                    >Tujuan Strategis</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/struktur_organisasi.html"
+                    >Struktur Organisasi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/pimpinan_jurusan.html"
+                    >Pimpinan Jurusan</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../profil/dosen_staff.html"
+                    >Dosen/Staff Pengajar</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../program_studi/index.html"
+                >Program Studi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../akademik/index.html">Akademik</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Penelitian
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../penelitian/jurnal.html"
+                    >Jurnal</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../penelitian/academy.html"
+                    >Academy</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hubungi Kami
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/hubungi_kami.html"
+                    >Hubungi Kami</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/saran_masukan.html"
+                    >Saran dan Masukan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/sosial_media.html"
+                    >Sosial Media Kami</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Main Content Diciniiiii-->
+    <main class="container my-5">
+      <!-- DESKRIPSI PRODI -->
+      <section class="mb-5">
+        <h2 class="text-center fw-bold text-primary mb-3">DESKRIPSI PRODI</h2>
+        <p class="mt-4 text-justify">
+          Sarjana Terapan Animasi merupakan program studi yang mengkhususkan
+          pada pembuatan animasi, grafis, dan efek visual. Disini anda akan
+          lebih banyak melakukan praktek, baik internal projek internal hingga
+          projek dari industri. Sehingga nantinya diharapkan lulusan memiliki
+          keterampilan yang mendalam di bidang animasi, desain, dan multimedia.
+        </p>
+      </section>
+
+      <section class="mb-5">
+        <div class="bg-light p-4 rounded">
+          <h2 class="fw-bold text-primary text-center mb-3">
+            Kenapa harus Animasi PNP?
+          </h2>
+          <p class="text-secondary">
+            Kami memiliki pengajar yang expert dan berpengalaman di industri
+            kreatif. Kurikulum kami disesuaikan dengan kebutuhan industri
+            animasi dan multimedia saat ini, sehingga setiap lulusan siap
+            bekerja di industri dengan skill, attitude, dan team work yang baik.
+          </p>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button text-primary fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Kreativitas
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Animasi memungkinkan Anda untuk mewujudkan imajinasi Anda
+                  tanpa batas, menjadikannya media yang sempurna untuk
+                  mengekspresikan ide-ide unik dan inovatif.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button text-primary fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Peluang Karir Yang Luas
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Industri animasi terus berkembang, menciptakan banyak peluang karir 
+                  di berbagai bidang seperti film, televisi, game, iklan, dan media digital.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button text-primary fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Keterampilan Teknis
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Belajar animasi melibatkan pengembangan keterampilan teknis 
+                  dalam pembuatan gambar bergerak, desain karakter, dan penggunaan 
+                  perangkat lunak animasi, yang semuanya sangat bernilai di pasar kerja saat ini.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button text-primary fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Kolaborasi
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Animasi sering melibatkan kerja tim yang erat, memberi Anda 
+                  kesempatan untuk belajar bekerja sama dengan profesional 
+                  lain dalam industri kreatif, memperluas jaringan Anda dan 
+                  meningkatkan keterampilan interpersonal Anda.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROFIL LULUSAN -->
+      <section class="mb-5">
+        <h2 class="text-center fw-bold text-primary mb-3">
+          Kompetensi & Peluang Kerja Lulusan
+        </h2>
+        <p class="text-center text-secondary mb-5">
+          Setelah mengikuti perkuliahan selama 8 semester, maka diharapkan para
+          lulusan akan dapat menepati posisi kerja sebagai berikut:
+        </p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card h-100 text-center shadow-sm border-0">
+              <div class="card-body">
+                <i class="bi bi-diagram-3 fs-1 text-primary mb-3"></i>
+                <h5 class="card-title fw-bold">
+                  Storyboard artist, dan concept artist
+                </h5>
+                <p class="card-text">
+                  Memiliki keterampilan yang baik dalam merancang preproduction
+                  animasi. Seperti merancang story, membuat storyboard, dan
+                  membuat rancangan visual.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card h-100 text-center shadow-sm border-0">
+              <div class="card-body">
+                <i class="bi bi-database fs-1 text-primary mb-3"></i>
+                <h5 class="card-title fw-bold">Stopmotion Artist</h5>
+                <p class="card-text">
+                  Memiliki keterampilan teknis yg baik dalam fotografi dan
+                  sinematografi, mengatur set dan lighting serta melakukan
+                  proses pengambilan gambar frame by frame
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card h-100 text-center shadow-sm border-0">
+              <div class="card-body">
+                <i class="bi bi-code-slash fs-1 text-primary mb-3"></i>
+                <h5 class="card-title fw-bold">Graphic Designer</h5>
+                <p class="card-text">
+                  Memiliki keterampilan konsep dan teknis yang baik dalam
+                  membuat konten visual sesuai media yang dibutuhkan (digital &
+                  cetak) seperti logo, poster, post sosial media, dll.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col">
+            <div class="card h-100 text-center shadow-sm border-0">
+              <div class="card-body">
+                <i class="bi bi-gear fs-1 text-primary mb-3"></i>
+                <h5 class="card-title fw-bold">Video Editor & VFX Artist</h5>
+                <p class="card-text">
+                  Memiliki keterampilan yang baik dalam video editing dan
+                  membuat efek visual baik dalam film real shot maupun animasi
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-1">
+      <div class="container">
+        <div class="row">
+          <!-- Kolom 1 Logo dan Alamat-->
+          <div class="col-md-4 mb-3">
+            <div class="d-flex align-items-center mb-2">
+              <img
+                src="../images/logoti3-white.png"
+                alt="..."
+                height="50"
+                width="150"
+                class="me-2"
+              />
+            </div>
+            <p class="mb-0">
+              Kampus Politeknik Negeri Padang, <br />
+              Limau Manis Padang <br />
+              Kode Pos : 25176 <br />
+              Phone : 0751-72590
+            </p>
+          </div>
+          <!-- Kolom 2 OUR ACADEMY -->
+          <div class="col-md-3 mb-3">
+            <h6 class="fw-bold mb-2">OUR ACADEMY</h6>
+            <ul>
+              <li>Mikrotik Academy</li>
+              <li>Redhat Academy</li>
+              <li>Oracle Academy</li>
+              <li>AWS Educate</li>
+              <li>Cisco Networking Academy</li>
+              <li>Microsoft IT Academy</li>
+            </ul>
+          </div>
+          <!-- Kolom USEFULL LINKS -->
+          <div class="col-md-3 mb-3">
+            <h6 class="fw-bold mb-2">USEFULL LINKS</h6>
+            <ul>
+              <li>Academy</li>
+              <li>Akreditas</li>
+              <li>Fasilitas</li>
+              <li>Jurnal</li>
+              <li>Saran dan Masukan</li>
+            </ul>
+          </div>
+          <!-- Kolom FOLLOW US -->
+          <div class="col-md-2 mb-3">
+            <h6 class="fw-bold mb-2">FOLLOW US</h6>
+            <a href="#" class="text-white me-3">
+              <i class="bi bi-facebook fs-5"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-instagram fs-5"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="bi bi-youtube fs-5"></i
+            ></a>
+          </div>
+        </div>
+        <!-- Garis Bawah -->
+        <hr class="border-light" />
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <p class="mb-0">Jurusan Teknologi Informasi</p>
+          <div>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-facebook fs-5"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-instagram fs-5"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="bi bi-youtube fs-5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootsrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

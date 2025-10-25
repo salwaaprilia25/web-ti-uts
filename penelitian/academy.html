@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!-- Bootsrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Bootsrap Icon-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar Sosia Media-->
+    <div class="bg-primary text-white py-1">
+      <div
+        class="container d-flex justify-content-end align-items-center gap-3"
+      >
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <i class="bi bi-search"></i>
+      </div>
+    </div>
+
+    <!-- Navbar Logo TI-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="../images/logo-ti-pnp-05-1.png"
+            alt="Bootstrap"
+            width="300"
+            height="40"
+          />
+        </a>
+        <!-- Toggle dan Menu -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Profil
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../profil/sejarah.html"
+                    >Sejarah</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../profil/visi_misi.html"
+                    >Visi Misi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/tujuan_strategis.html"
+                    >Tujuan Strategis</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/sasaran_strategis.html"
+                    >Sasaran Strategis</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/struktur_organisasi.html"
+                    >Struktur Organisasi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/pimpinan_jurusan.html"
+                    >Pimpinan Jurusan</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../profil/dosen_staff.html"
+                    >Dosen/Staff Pengajar</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../program_studi/index.html"
+                >Program Studi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../akademik/index.html">Akademik</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Penelitian
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../penelitian/jurnal.html"
+                    >Jurnal</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../penelitian/academy.html"
+                    >Academy</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hubungi Kami
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/hubungi_kami.html"
+                    >Hubungi Kami</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/saran_masukan.html"
+                    >Saran dan Masukan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/sosial_media.html"
+                    >Sosial Media Kami</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content Diciniiiii-->
+    <section class="py-5 bg-light">
+      <div class="container text-center">
+        <div class="mb-5">
+          <h3 class="fw-bold">Academy Partners</h3>
+          <p class="text-muted">
+            Kerja sama akademik dengan berbagai mitra global untuk mendukung
+            pembelajaran dan sertifikasi internasional.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Microsoft IT Academy -->
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 p-4 d-flex flex-column">
+              <img
+                src="../images/academy1.png"
+                class="img-fluid mb-3 object-fit-contain"
+                style="height: 150px"
+                alt="Microsoft Academy"
+              />
+              <h5 class="fw-semibold">Microsoft IT Academy</h5>
+              <p class="text-muted small flex-grow-1">
+                Program pelatihan resmi Microsoft untuk mendukung pengembangan
+                keterampilan digital mahasiswa melalui sertifikasi global
+                seperti Azure, Power BI, dan Office 365.
+              </p>
+              <a
+                href="https://learn.microsoft.com/en-us/training/"
+                class="btn btn-outline-primary btn-sm mt-auto align-self-center px-4"
+                >Kunjungi</a
+              >
+            </div>
+          </div>
+
+          <!-- Cisco Networking Academy -->
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 p-4 d-flex flex-column">
+              <img
+                src="../images/academy2.jpg"
+                class="img-fluid mb-3 object-fit-contain"
+                style="height: 150px"
+                alt="Cisco Academy"
+              />
+              <h5 class="fw-semibold">Cisco Networking Academy</h5>
+              <p class="text-muted small flex-grow-1">
+                Program global dari Cisco Systems untuk melatih mahasiswa dalam
+                bidang jaringan komputer, keamanan siber, dan Internet of Things
+                (IoT) dengan sertifikasi internasional.
+              </p>
+              <a
+                href="https://www.netacad.com/"
+                class="btn btn-outline-primary btn-sm mt-auto align-self-center px-4"
+                >Kunjungi</a
+              >
+            </div>
+          </div>
+
+          <!-- AWS Educate -->
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 p-4 d-flex flex-column">
+              <img
+                src="../images/academy3.png"
+                class="img-fluid mb-3 object-fit-contain"
+                style="height: 150px"
+                alt="AWS Educate"
+              />
+              <h5 class="fw-semibold">AWS Educate</h5>
+              <p class="text-muted small flex-grow-1">
+                Platform pembelajaran cloud computing dari Amazon Web Services
+                (AWS) yang membekali mahasiswa dengan keterampilan komputasi
+                awan, AI, dan machine learning.
+              </p>
+              <a
+                href="https://aws.amazon.com/id/education/awseducate/"
+                class="btn btn-outline-primary btn-sm mt-auto align-self-center px-4"
+                >Kunjungi</a
+              >
+            </div>
+          </div>
+
+          <!-- MikroTik Academy -->
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 p-4 d-flex flex-column">
+              <img
+                src="../images/academy4.jpg"
+                class="img-fluid mb-3 object-fit-contain"
+                style="height: 150px"
+                alt="MikroTik Academy"
+              />
+              <h5 class="fw-semibold">MikroTik Academy</h5>
+              <p class="text-muted small flex-grow-1">
+                Program pelatihan jaringan dari MikroTik yang memberikan
+                kesempatan kepada mahasiswa untuk mempelajari konfigurasi
+                router, manajemen jaringan, dan sertifikasi MTCNA.
+              </p>
+              <a
+                href="https://mikrotik.com/training/academy"
+                class="btn btn-outline-primary btn-sm mt-auto align-self-center px-4"
+                >Kunjungi</a
+              >
+            </div>
+          </div>
+
+          <!-- Red Hat Academy -->
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 p-4 d-flex flex-column">
+              <img
+                src="../images/academy5.png"
+                class="img-fluid mb-3 object-fit-contain"
+                style="height: 150px"
+                alt="Red Hat Academy"
+              />
+              <h5 class="fw-semibold">Red Hat Academy</h5>
+              <p class="text-muted small flex-grow-1">
+                Inisiatif dari Red Hat untuk menyediakan pembelajaran sistem
+                operasi berbasis Linux, administrasi server, dan cloud computing
+                bagi mahasiswa menuju sertifikasi RHCSA dan RHCE.
+              </p>
+              <a
+                href="https://www.redhat.com/en/services/training/red-hat-academy"
+                class="btn btn-outline-primary btn-sm mt-auto align-self-center px-4"
+                >Kunjungi</a
+              >
+            </div>
+          </div>
+
+          <!-- Oracle Academy -->
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 p-4 d-flex flex-column">
+              <img
+                src="../images/academy6.png"
+                class="img-fluid mb-3 object-fit-contain"
+                style="height: 150px"
+                alt="Oracle Academy"
+              />
+              <h5 class="fw-semibold">Oracle Academy</h5>
+              <p class="text-muted small flex-grow-1">
+                Program pendidikan resmi Oracle yang menyediakan materi
+                pembelajaran database, Java, dan analisis data untuk mendukung
+                pengembangan kompetensi teknologi informasi mahasiswa.
+              </p>
+              <a
+                href="https://academy.oracle.com/en/oa-web-overview.html"
+                class="btn btn-outline-primary btn-sm mt-auto align-self-center px-4"
+                >Kunjungi</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-1">
+      <div class="container">
+        <div class="row">
+          <!-- Kolom 1 Logo dan Alamat-->
+          <div class="col-md-4 mb-3">
+            <div class="d-flex align-items-center mb-2">
+              <img
+                src="../images/logoti3-white.png"
+                alt="..."
+                height="50"
+                width="150"
+                class="me-2"
+              />
+            </div>
+            <p class="mb-0">
+              Kampus Politeknik Negeri Padang, <br />
+              Limau Manis Padang <br />
+              Kode Pos : 25176 <br />
+              Phone : 0751-72590
+            </p>
+          </div>
+          <!-- Kolom 2 OUR ACADEMY -->
+          <div class="col-md-3 mb-3">
+            <h6 class="fw-bold mb-2">OUR ACADEMY</h6>
+            <ul>
+              <li>Mikrotik Academy</li>
+              <li>Redhat Academy</li>
+              <li>Oracle Academy</li>
+              <li>AWS Educate</li>
+              <li>Cisco Networking Academy</li>
+              <li>Microsoft IT Academy</li>
+            </ul>
+          </div>
+          <!-- Kolom USEFULL LINKS -->
+          <div class="col-md-3 mb-3">
+            <h6 class="fw-bold mb-2">USEFULL LINKS</h6>
+            <ul>
+              <li>Academy</li>
+              <li>Akreditas</li>
+              <li>Fasilitas</li>
+              <li>Jurnal</li>
+              <li>Saran dan Masukan</li>
+            </ul>
+          </div>
+          <!-- Kolom FOLLOW US -->
+          <div class="col-md-2 mb-3">
+            <h6 class="fw-bold mb-2">FOLLOW US</h6>
+            <a href="#" class="text-white me-3">
+              <i class="bi bi-facebook fs-5"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-instagram fs-5"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="bi bi-youtube fs-5"></i
+            ></a>
+          </div>
+        </div>
+        <!-- Garis Bawah -->
+        <hr class="border-light" />
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <p class="mb-0">Jurusan Teknologi Informasi</p>
+          <div>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-facebook fs-5"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-instagram fs-5"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="bi bi-youtube fs-5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootsrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

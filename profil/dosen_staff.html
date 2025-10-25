@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!-- Bootsrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Bootsrap Icon-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar Sosia Media-->
+    <div class="bg-primary text-white py-1">
+      <div
+        class="container d-flex justify-content-end align-items-center gap-3"
+      >
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <i class="bi bi-search"></i>
+      </div>
+    </div>
+
+    <!-- Navbar Logo TI-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="../images/logo-ti-pnp-05-1.png"
+            alt="Bootstrap"
+            width="300"
+            height="40"
+          />
+        </a>
+        <!-- Toggle dan Menu -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Profil
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../profil/sejarah.html"
+                    >Sejarah</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../profil/visi_misi.html"
+                    >Visi Misi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/tujuan_strategis.html"
+                    >Tujuan Strategis</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/struktur_organisasi.html"
+                    >Struktur Organisasi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/pimpinan_jurusan.html"
+                    >Pimpinan Jurusan</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../profil/dosen_staff.html"
+                    >Dosen/Staff Pengajar</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../program_studi/index.html"
+                >Program Studi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../akademik/index.html">Akademik</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Penelitian
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../penelitian/jurnal.html"
+                    >Jurnal</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../penelitian/academy.html"
+                    >Academy</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hubungi Kami
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/hubungi_kami.html"
+                    >Hubungi Kami</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/saran_masukan.html"
+                    >Saran dan Masukan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/sosial_media.html"
+                    >Sosial Media Kami</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content Diciniiiii-->
+    <section class="py-6 bg-light">
+      <div class="bg-secondary-subtle py-3 px-3 rounded mb-4">
+        <h3 class="text-start fw-semibold mb-0">Dosen / Staf Pengajar</h3>
+      </div>
+
+      <div class="container">
+        <div class="row text-center">
+          <!-- Baris 1 -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds1.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 1"
+            />
+            <p class="fw-semibold mb-0">Ir. Hanriyawan Adnan Mooduto, M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds2.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 2"
+            />
+            <p class="fw-semibold mb-0">Ronal Hadi, S.T., M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds3.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 3"
+            />
+            <p class="fw-semibold mb-0">Dr. Ir. Yuhefizar, S.Kom., M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds4.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 4"
+            />
+            <p class="fw-semibold mb-0">Humaira, S.T., M.T</p>
+          </div>
+
+          <!-- Baris 2 -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds5.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 5"
+            />
+            <p class="fw-semibold mb-0">Yance Sonatha, S.Kom., M.T</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds6.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 6"
+            />
+            <p class="fw-semibold mb-0">Meri Azmi, S.T., M.Cs</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds7.png"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 7"
+            />
+            <p class="fw-semibold mb-0">Rasyidah, S.Si., M.M</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds8.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 8"
+            />
+            <p class="fw-semibold mb-0">Ir. Rahmat Hidayat, S.T., M.Sc.IT</p>
+          </div>
+
+          <!-- Baris 3 -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds9.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 9"
+            />
+            <p class="fw-semibold mb-0">Rita Afyenni, S.Kom., M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds10.png"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 10"
+            />
+            <p class="fw-semibold mb-0">Hidra Amnur, S.Kom., S.E., M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds11.jpeg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 11"
+            />
+            <p class="fw-semibold mb-0">Dwiny Meidelfi, S.Kom., M.Cs</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds12.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 12"
+            />
+            <p class="fw-semibold mb-0">Deddy Prayama, S.Kom., M.ISD</p>
+          </div>
+
+          <!-- Baris 4 -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds13.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 9"
+            />
+            <p class="fw-semibold mb-0">Cipto Prabowo, S.T., M.T</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds14.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 10"
+            />
+            <p class="fw-semibold mb-0">Dr. Yulherniwati, S.Kom., M.T</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds15.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 11"
+            />
+            <p class="fw-semibold mb-0">Ervan Asri, S.Kom., M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds16.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 12"
+            />
+            <p class="fw-semibold mb-0">Defni, S.Si., M.Kom</p>
+          </div>
+
+          <!-- Baris 5 -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds17.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 9"
+            />
+            <p class="fw-semibold mb-0">Rika Idmayanti, S.T., M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds18.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 10"
+            />
+            <p class="fw-semibold mb-0">Ikhsan Yusda Prima Putra, S.H., L.LM</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds19.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 11"
+            />
+            <p class="fw-semibold mb-0">Indri Rahmayuni, S.T., M.T</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds20.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 12"
+            />
+            <p class="fw-semibold mb-0">Fazrol Rozi, M.Sc</p>
+          </div>
+
+          <!-- Baris 6 -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds21.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 9"
+            />
+            <p class="fw-semibold mb-0">Fitri Nova, S.ST., M.T</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds22.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 10"
+            />
+            <p class="fw-semibold mb-0">Raemon Syaljumairi, S.Kom., M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds23.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 11"
+            />
+            <p class="fw-semibold mb-0">Alde Alanda, S.Kom., M.T</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds24.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 12"
+            />
+            <p class="fw-semibold mb-0">Roni Putra, S.Kom., M.T</p>
+          </div>
+
+          <!-- Baris 7 -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds25.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 9"
+            />
+            <p class="fw-semibold mb-0">Tri Lestari, S.Pd., M.Eng</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds26.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 10"
+            />
+            <p class="fw-semibold mb-0">Fanni Sukma, S.ST., M.T</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds27.png"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 11"
+            />
+            <p class="fw-semibold mb-0">Ardi Syawaldipa, S.Kom., M.T</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds28.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 12"
+            />
+            <p class="fw-semibold mb-0">
+              Andrew Kurniawan Vadreas, S.Kom., M.T
+            </p>
+          </div>
+
+          <!-- Baris 8 -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds29.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 9"
+            />
+            <p class="fw-semibold mb-0">Hendra Rotama, S.Pd., M.Sn</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds30.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 10"
+            />
+            <p class="fw-semibold mb-0">Ideva Gaputra, S.Kom., M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds31.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 11"
+            />
+            <p class="fw-semibold mb-0">Yulia Jihan Sy, S.Kom., M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds32.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 12"
+            />
+            <p class="fw-semibold mb-0">
+              Muhammad Ibrahim Nasution, S.Pd., M.Kom
+            </p>
+          </div>
+
+          <!-- Baris 8 -->
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds33.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 9"
+            />
+            <p class="fw-semibold mb-0">Yori Adi Atma, S.Pd., M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds34.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 10"
+            />
+            <p class="fw-semibold mb-0">Ulya Ilhami Arsyah, S.Kom., M.Kom</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds35.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 11"
+            />
+            <p class="fw-semibold mb-0">Sumema, S.Ds., M.Ds</p>
+          </div>
+          <div class="col-md-3 mb-4">
+            <img
+              src="../images/ds36.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 12"
+            />
+            <p class="fw-semibold mb-0">
+              Rajimar Suhal Hasibuan, S.T., M.M.S.I
+            </p>
+          </div>
+
+          <!-- Baris 9 -->
+          <div class="col-md-4 mb-4">
+            <img
+              src="../images/ds37.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 17"
+            />
+            <p class="fw-semibold mb-0">Taruma Leo Wijaya, S.Kom., M.M.S.I</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              src="../images/ds38.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 18"
+            />
+            <p class="fw-semibold mb-0">Edwar Rosman, S.Kom., M.Kom</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              src="../images/ds39.jpg"
+              class="img-fluid rounded mb-2"
+              alt="Dosen 19"
+            />
+            <p class="fw-semibold mb-0">Mutia Rahmi Dewi, S.Kom., M.Kom</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-1">
+      <div class="container">
+        <div class="row">
+          <!-- Kolom 1 Logo dan Alamat-->
+          <div class="col-md-4 mb-3">
+            <div class="d-flex align-items-center mb-2">
+              <img
+                src="../images/logoti3-white.png"
+                alt="..."
+                height="50"
+                width="150"
+                class="me-2"
+              />
+            </div>
+            <p class="mb-0">
+              Kampus Politeknik Negeri Padang, <br />
+              Limau Manis Padang <br />
+              Kode Pos : 25176 <br />
+              Phone : 0751-72590
+            </p>
+          </div>
+          <!-- Kolom 2 OUR ACADEMY -->
+          <div class="col-md-3 mb-3">
+            <h6 class="fw-bold mb-2">OUR ACADEMY</h6>
+            <ul>
+              <li>Mikrotik Academy</li>
+              <li>Redhat Academy</li>
+              <li>Oracle Academy</li>
+              <li>AWS Educate</li>
+              <li>Cisco Networking Academy</li>
+              <li>Microsoft IT Academy</li>
+            </ul>
+          </div>
+          <!-- Kolom USEFULL LINKS -->
+          <div class="col-md-3 mb-3">
+            <h6 class="fw-bold mb-2">USEFULL LINKS</h6>
+            <ul>
+              <li>Academy</li>
+              <li>Akreditas</li>
+              <li>Fasilitas</li>
+              <li>Jurnal</li>
+              <li>Saran dan Masukan</li>
+            </ul>
+          </div>
+          <!-- Kolom FOLLOW US -->
+          <div class="col-md-2 mb-3">
+            <h6 class="fw-bold mb-2">FOLLOW US</h6>
+            <a href="#" class="text-white me-3">
+              <i class="bi bi-facebook fs-5"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-instagram fs-5"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="bi bi-youtube fs-5"></i
+            ></a>
+          </div>
+        </div>
+        <!-- Garis Bawah -->
+        <hr class="border-light" />
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <p class="mb-0">Jurusan Teknologi Informasi</p>
+          <div>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-facebook fs-5"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-instagram fs-5"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="bi bi-youtube fs-5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootsrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

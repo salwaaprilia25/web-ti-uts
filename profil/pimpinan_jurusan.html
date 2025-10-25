@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!-- Bootsrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- Bootsrap Icon-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar Sosia Media-->
+    <div class="bg-primary text-white py-1">
+      <div
+        class="container d-flex justify-content-end align-items-center gap-3"
+      >
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <i class="bi bi-search"></i>
+      </div>
+    </div>
+
+    <!-- Navbar Logo TI-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="../images/logo-ti-pnp-05-1.png"
+            alt="Bootstrap"
+            width="300"
+            height="40"
+          />
+        </a>
+        <!-- Toggle dan Menu -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Profil
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../profil/sejarah.html"
+                    >Sejarah</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../profil/visi_misi.html"
+                    >Visi Misi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/tujuan_strategis.html"
+                    >Tujuan Strategis</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/struktur_organisasi.html"
+                    >Struktur Organisasi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../profil/pimpinan_jurusan.html"
+                    >Pimpinan Jurusan</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../profil/dosen_staff.html"
+                    >Dosen/Staff Pengajar</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../program_studi/index.html"
+                >Program Studi</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../akademik/index.html">Akademik</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Penelitian
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../penelitian/jurnal.html"
+                    >Jurnal</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../penelitian/academy.html"
+                    >Academy</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hubungi Kami
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/hubungi_kami.html"
+                    >Hubungi Kami</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/saran_masukan.html"
+                    >Saran dan Masukan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="../hubungi_kami/sosial_media.html"
+                    >Sosial Media Kami</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content Diciniiiii-->
+    <section class="py-6 bg-light">
+      <div class="bg-secondary-subtle py-3 px-3 rounded mb-4">
+        <h3 class="text-start fw-semibold mb-0">Pimpinan Jurusan</h3>
+      </div>
+      <div class="container">
+        <!-- isi konten -->
+        <!-- Bagian Pimpinan Jurusan -->
+        <h4 class="text-center fw-bold mb-4">PIMPINAN JURUSAN</h4>
+        <div class="row justify-content-center g-4 mb-5">
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm">
+              <img
+                src="../images/pj1.jpeg"
+                class="card-img-top"
+                alt="Pimpinan 1"
+              />
+              <div class="card-body text-center">
+                <h5 class="fw-semibold mb-1">
+                  Dr. Ir. Yuhefizar, S.Kom.,M.Kom
+                </h5>
+                <p class="text-muted small mb-2">KETUA JURUSAN</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card border-0 shadow-sm">
+              <img
+                src="../images/pj2.jpg"
+                class="card-img-top"
+                alt="Pimpinan 2"
+              />
+              <div class="card-body text-center">
+                <h5 class="fw-semibold mb-1">Humaira, ST.,MT</h5>
+                <p class="text-muted small mb-2">SEKRETARIS JURUSAN</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bagian Koordinator Program Studi -->
+        <h4 class="text-center fw-bold mb-4">KOORDINATOR PROGRAM STUDI</h4>
+
+        <!-- 4 Card -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mb-3">
+          <div class="col">
+            <div class="card border-0 shadow-sm h-100 text-center">
+              <img
+                src="../images/pj3.jpg"
+                class="card-img-top"
+                alt="Meri Azmi"
+              />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">Meri Azmi, ST.,M.Cs</h6>
+                <p class="text-muted small mb-2">
+                  KOORDINATOR PROGRAM STUDI TEKNOLOGI REKAYASA PERANGKAT LUNAK
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-0 shadow-sm h-100 text-center">
+              <img
+                src="../images/pj4.jpg"
+                class="card-img-top"
+                alt="Andre Febrian"
+              />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">
+                  Andre Febrian Kasmar, S.T.,M.T.
+                </h6>
+                <p class="text-muted small mb-2">
+                  Koordinator Program Studi Teknik Komputer
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-0 shadow-sm h-100 text-center">
+              <img
+                src="../images/pj5.jpg"
+                class="card-img-top"
+                alt="Roni Putra"
+              />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">Roni Putra, S.Kom.,M.T.</h6>
+                <p class="text-muted small mb-2">
+                  Koordinator Program Studi Manajemen Informatika
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-0 shadow-sm h-100 text-center">
+              <img
+                src="../images/pj6.png"
+                class="card-img-top"
+                alt="Ardi Syawaldipa"
+              />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">Ardi Syawaldipa, S.Kom.,M.T.</h6>
+                <p class="text-muted small mb-2">
+                  Koordinator Program Studi D2 Administrasi Jaringan Komputer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Card -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-5">
+          <div class="col">
+            <div class="card border-0 shadow-sm h-100 text-center">
+              <img
+                src="../images/pj7.png"
+                class="card-img-top"
+                alt="Hidra Amnur"
+              />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">Hidra Amnur, S.Kom.,S.E.,M.Kom</h6>
+                <p class="text-muted small mb-2">
+                  Koordinator PSDKU Teknik Komputer Solok Selatan
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-0 shadow-sm h-100 text-center">
+              <img
+                src="../images/pj8.jpg"
+                class="card-img-top"
+                alt="Cipto Prabowo"
+              />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">Cipto Prabowo, ST.,M.T.</h6>
+                <p class="text-muted small mb-2">
+                  Koordinator PSDKU Manajemen Informatika Tanah Datar
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-0 shadow-sm h-100 text-center">
+              <img
+                src="../images/pj9.jpg"
+                class="card-img-top"
+                alt="Farrol Rozi"
+              />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">Fazrol Rozi, M.Sc</h6>
+                <p class="text-muted small mb-2">
+                  Koordinator PSDKU Sistim Informasi Palalawan
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bagian Kepala Labor -->
+        <h4 class="text-center fw-bold mb-4">KEPALA LABOR</h4>
+        <div class="row justify-content-center mb-5">
+          <div class="col-12 col-sm-8 col-md-4">
+            <div class="card border-0 shadow-sm text-center">
+              <img
+                src="../images/pj6.png"
+                class="card-img-top"
+                alt="Ardi Syawaldipa"
+              />
+              <div class="card-body">
+                <h6 class="fw-semibold mb-1">Ardi Syawaldipa, S.Kom., M.T</h6>
+                <p class="text-muted small mb-2">
+                  Koordinator Program Studi D2 Administrasi Jaringan Komputer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-1">
+      <div class="container">
+        <div class="row">
+          <!-- Kolom 1 Logo dan Alamat-->
+          <div class="col-md-4 mb-3">
+            <div class="d-flex align-items-center mb-2">
+              <img
+                src="../images/logoti3-white.png"
+                alt="..."
+                height="50"
+                width="150"
+                class="me-2"
+              />
+            </div>
+            <p class="mb-0">
+              Kampus Politeknik Negeri Padang, <br />
+              Limau Manis Padang <br />
+              Kode Pos : 25176 <br />
+              Phone : 0751-72590
+            </p>
+          </div>
+          <!-- Kolom 2 OUR ACADEMY -->
+          <div class="col-md-3 mb-3">
+            <h6 class="fw-bold mb-2">OUR ACADEMY</h6>
+            <ul>
+              <li>Mikrotik Academy</li>
+              <li>Redhat Academy</li>
+              <li>Oracle Academy</li>
+              <li>AWS Educate</li>
+              <li>Cisco Networking Academy</li>
+              <li>Microsoft IT Academy</li>
+            </ul>
+          </div>
+          <!-- Kolom USEFULL LINKS -->
+          <div class="col-md-3 mb-3">
+            <h6 class="fw-bold mb-2">USEFULL LINKS</h6>
+            <ul>
+              <li>Academy</li>
+              <li>Akreditas</li>
+              <li>Fasilitas</li>
+              <li>Jurnal</li>
+              <li>Saran dan Masukan</li>
+            </ul>
+          </div>
+          <!-- Kolom FOLLOW US -->
+          <div class="col-md-2 mb-3">
+            <h6 class="fw-bold mb-2">FOLLOW US</h6>
+            <a href="#" class="text-white me-3">
+              <i class="bi bi-facebook fs-5"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-instagram fs-5"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="bi bi-youtube fs-5"></i
+            ></a>
+          </div>
+        </div>
+        <!-- Garis Bawah -->
+        <hr class="border-light" />
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <p class="mb-0">Jurusan Teknologi Informasi</p>
+          <div>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-facebook fs-5"></i
+            ></a>
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-instagram fs-5"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="bi bi-youtube fs-5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootsrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
